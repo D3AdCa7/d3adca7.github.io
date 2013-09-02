@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : d3adca7.github.io
+      short_name : d3adca7.disqus.com
     # livefyre :
     #   site_id : 123
     # intensedebate :
