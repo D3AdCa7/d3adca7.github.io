@@ -143,7 +143,7 @@ print get_string( '(SELECT IFNULL(CAST(table_name AS CHAR) ,0x20) FROM INFORMATI
 
 a.php
 
-Founded from [pastebin](http://http://pastebin.com/y9GKtx0b)
+Founded from [pastebin](http://pastebin.com/y9GKtx0b)
 
 {% highlight php linenos%}
 
