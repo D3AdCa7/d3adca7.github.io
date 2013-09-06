@@ -6,8 +6,8 @@ category:  review
 tags: [ASIS CTF Finals 2013]
 ---
 {% include JB/setup %}
-## Crypto
 
+## Crypto
 ### Rookie Agent
 <hr>
 这道题的重点是写小脚本做一下频度分析之后来脑补，脑洞起了非常重要的作用，之后就是对着几个搞出来的组合来分析剩下的组合对应的字母。
@@ -20,7 +20,6 @@ tags: [ASIS CTF Finals 2013]
 有个很赞的writeup, [RSAng (Asis CTF 2013)](http://koala.cs.pub.ro/hexcellents/wiki/writeups/asis_rsang) by Radu Caragea from hexcellents CTF team
 
 ## Forensic
-
 ### PCAP
 <hr>
 首先是仔细，把每一个流的信息都收集整理一下，stream 0的信息是后来解7z用的，这题其实不太难，问题是坑爹的官方一开始给的pcap文件里面有两个流是缺包的，后来看到了news部分新放出来两个补充包于是秒掉了，按照时间顺序＋字典序，把所有那个html页面中显示的以md5命名的文件拼接起来就好了，然后输入stream 0中显示的密码就可以搞定。
