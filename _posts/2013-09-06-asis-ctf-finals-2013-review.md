@@ -32,8 +32,7 @@ tags: [ASIS CTF Finals 2013]
 ### rm -rf
 <hr>
 这个题是cbmixx搞定的，就是使用foremost然后把都分好类的文件看一下。
-
-看一个老外的blog上面写可以直接用hexeditor打开img文件然后搜索string:ASIS_
+看一个老外的blog上面写可以直接用hexeditor打开img文件然后搜索string,关键词'ASIS_'
 
 ## Web
 ### Login
