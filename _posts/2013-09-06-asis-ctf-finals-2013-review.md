@@ -64,7 +64,7 @@ tags: [ASIS CTF Finals 2013]
 
 ### Chessboard
 <hr>
-这道题当时ZTrix做出来了，真是厉害死了。。
+这道题当时ZTrix做出来了，真是厉害死了。。。
 
 
 
