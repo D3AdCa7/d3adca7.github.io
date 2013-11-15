@@ -3,7 +3,7 @@ layout: post
 title: "CSAW CTF Quals 2013 review"
 description: ""
 category: review
-tags: []
+tags: [CSAW QUAL 2013]
 ---
 {% include JB/setup %}
 
@@ -111,9 +111,9 @@ Would you like some supersexyhotandspicyprosauce?
 
 ```
 <?php
-	$hqd = $_SERVER['HTTP_REFERER'];
+	$a = $_SERVER['HTTP_REFERER'];
 	$f = fopen('csaw.txt','a');
-	fwrite($f,"$hqd\n-------\n");
+	fwrite($f,"$a\n-------\n");
 	fclose($f);
 ?>
 ```
@@ -134,7 +134,7 @@ http://128.238.66.214/viewmessage.php?enc=vox57jtM01n9aZo0ZVNtgu755vAI0x7aJNd7iM
 <hr>
 php序列化注入
 
-
+<hr>
 # 太懒了于是这个writeup烂尾了。。
 
 
