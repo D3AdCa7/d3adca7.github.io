@@ -110,12 +110,10 @@ Would you like some supersexyhotandspicyprosauce?
 一开始注册了一个帐号搞了搞没搞动去看misc的题了，后来注册了一个帐号，两个帐号之间一发信息觉得REFERER有问题，于是在自己vps上写了个简单的PHP：
 
 ```
-<?php
 	$a = $_SERVER['HTTP_REFERER'];
 	$f = fopen('csaw.txt','a');
 	fwrite($f,"$a\n-------\n");
 	fclose($f);
-?>
 ```
 发现这个必须作为index.php因为slash貌似会被转义，然后以这个作为link发email给admin，就可以看到一个referer如下
 
@@ -135,7 +133,7 @@ http://128.238.66.214/viewmessage.php?enc=vox57jtM01n9aZo0ZVNtgu755vAI0x7aJNd7iM
 php序列化注入
 
 <hr>
-# 太懒了于是这个writeup烂尾了。。
+<del>太懒了于是这个writeup烂尾了。。</del>
 
 
 
